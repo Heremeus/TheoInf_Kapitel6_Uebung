@@ -35,7 +35,7 @@ public class Main {
 
         // Choose which equation to solve and how often to run the algorithms
         final Integer[][] equationToSolve = solvableEquation;
-        final int repetitions = 3000;
+        final int repetitions = 1000;
         runAlgorithmsForEquation(equationToSolve, repetitions);
     }
 
