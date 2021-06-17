@@ -48,7 +48,7 @@ public class Main {
         int m = equationToUse.length;
         int k = equationToUse[0].length;
 
-        System.out.printf("MaxSAT randomised approximation for (n,m)-equation in conjunctive normal form with n=%d, m=%d, k=%d%n", m, n, k);
+        System.out.printf("MaxSAT randomised approximation for (n,m)-equation in conjunctive normal form with n=%d, m=%d, k=%d%n", n, m, k);
         // Solves the ILP and prints the result
         printOptimalSolution(equationToUse, n);
         // Solves the LP and prints superoptimal result
